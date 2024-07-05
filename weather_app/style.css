@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 150px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    background-position: center;   
+}
+.weather-container{
+    text-align: center;
+    height: 30vh;
+    width: 50%;
+    margin-left:20% ;
+    padding: 40px;
+    
+}
+.header{
+    font-size: 2rem;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#city{
+    font-size: 35px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+}
+button{
+    font-size: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: blue;
+    border-color: transparent;
+    color: white;
+    margin-left: 5px;
+}
+.output{
+    text-align: center;
+    width: 550px;
+    color: #16a864;
+    margin-left: 28%;
+}
+.wrapper{
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: rgb(172, 189, 221);
+    height:40vh;
+    margin: 30px auto;
+    border-radius:2px;
+}
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    height: 15%;
+    background: #0548b5;
+    color: white;
+    font-size: 30px;
+}
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size: 30px;
+    font-weight: 600;
+}
+.wrapper h2 span{
+    font-size: 30px;
+    color: #9beefb;
+}
+.wrapper p span{
+    color: #5e0df4;
+    font-size: 30px;
+}
